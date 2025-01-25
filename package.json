@@ -8,7 +8,8 @@
     "format:check": "prettier --ignore-path ./.gitignore --check \"./**/*.{html,json,js,ts,css}\"",
     "lint": "eslint --ignore-pattern ./.gitignore --fix \"./**/*.{js,ts}\"",
     "lint:check": "eslint --ignore-pattern ./.gitignore --quiet \"./**/*.{js,ts}\"",
-    "test": "jest"
+    "test": "jest",
+    "build": " parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
